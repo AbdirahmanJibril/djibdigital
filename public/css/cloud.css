@@ -1,0 +1,64 @@
+.container.sidenave-extended{
+color: var(--white);
+}
+.sidenave-extended > li a{
+    color: var(--white);
+    font-weight: 600;   
+   }
+.promo-section.cloud h6{
+color:var(--blue);
+font-weight: 600;
+}
+.cloud-middle-section{
+text-align: center;
+}
+.cloud-middle-section h3{
+    color:var(--darkblue);
+}
+.cloud-lower-section{
+    background-color: var(--grey);
+    text-align: center;
+}
+.cloud-health-section{
+   margin:50px 70px;
+    color:var(--darkblue);
+   text-align: center;
+
+}
+.cloud-health-section .card{
+box-shadow: none;
+
+
+}
+.cloud-health-section .fas, h6{
+color: var(--blue);
+}
+.cloud-lower-section .card{
+    text-align: center;
+    box-shadow: none;
+    background-color: transparent;
+
+      
+}
+.cloud-lower-section p{
+color:var(--blue);
+font-weight: 500;
+
+}
+
+.educational{
+text-align: center;
+margin: 50px;
+
+}
+.educational .card{
+    box-shadow: none;
+}
+.educational h3{
+    color: var(--blue);
+}
+@media screen and (max-width: 576px) {
+    .small-paragraphs-top  , .small-paragraphs-education{
+        text-align: justify;
+    }
+}

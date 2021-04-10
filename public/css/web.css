@@ -1,0 +1,119 @@
+
+.topsection.web h3 {
+color: var(--blue);
+font-weight: 600;
+margin-top: 100px;
+}
+.web-text{
+text-align: center;
+color:grey;
+
+}
+.web-h4{
+    text-align: center;
+    color: var(--darkblue);
+}
+
+section.web-cards{
+text-align: center;
+
+
+}
+.web-cards .card{
+    max-width: 90%;
+    max-width: 60%;
+    margin: 50px auto;
+}
+
+.h3-top{
+    color: var(--blue);
+    font-weight: 900;
+}
+.promo-section-web {
+    margin:50px;
+    background-color: #ffffff;
+
+}
+.promo-section-web h4{
+    margin-top: 50px;
+    max-width: fit-content;
+}
+
+.promo-section-web .row{
+    margin-top: 100px;
+}
+
+
+
+.promo-section h3 {
+    margin:50px auto;
+    color: var(--blue);
+    font-weight: 600;
+}
+.promo-section h6{
+ 
+    color: var(--darkblue);
+    font-weight: 600;
+}
+.small-paragraphs{
+    margin:auto 70px auto 0 ;
+    font-size: large;
+}
+.web-lower-section{
+    background-color: var(--grey);
+}
+.row p.small-paragraphs{
+    margin:auto 50px;
+}
+.web-lower-section .card{
+    text-align: center;
+    box-shadow: none;
+    background-color: var(--grey);
+      
+}
+.web-cards .card{
+    box-shadow: none;
+  
+}
+
+.web-lower-section .fas,.far{
+color:var(--blue);
+}
+.web-lower-section h3 {
+    text-align: center;
+    margin:50px auto;
+    color: var(--blue);
+}
+.promo-section .fas{
+    color:var(--blue);
+}
+
+
+.lower-section-web .card{
+    width:20%;
+    height: 20%;
+    margin: 100px auto;
+   
+    
+    
+}
+
+.lower-section-web{
+    display:flex;
+    margin:auto;
+
+}
+
+@media screen and (max-width: 576px) {
+    .lower-section-web{
+    display:inline-block;
+    
+        
+    }
+    .lower-section-web .card{
+        width: 60%;
+    }
+    .topsection.web h3{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+.promo-section-digital{
+    margin:50px 70px;
+}
+.topsection.digital h3,h5,.fas{
+    color: var(--blue);
+    font-weight: 600;
+}
+.promo-section-digital h4{
+    color: var(--blue);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+   img.middle-img-digital{
+    display: none;
+   }
+   .promo-section-digital{
+    margin:70px;
+}
+    }

@@ -9,6 +9,9 @@ color: var(--white);
 color:var(--blue);
 font-weight: 600;
 }
+/* .promoimage-cloud{
+    max-width: 40%;
+} */
 .cloud-middle-section{
 text-align: center;
 }
@@ -48,14 +51,22 @@ font-weight: 500;
 
 .educational{
 text-align: center;
-margin: 50px;
+margin: 100px;
 
 }
+/* section.educational  .row, .col{
+    margin:50px auto;
+} */
 .educational .card{
     box-shadow: none;
 }
-.educational h3{
-    color: var(--blue);
+.educational h5{
+    color: var(--darkblue);
+    margin:50px auto;
+}
+.educational  h3{
+    margin-bottom: 100px;
+    color: var(--darkblue);
 }
 @media screen and (max-width: 576px) {
     .small-paragraphs-top  , .small-paragraphs-education{

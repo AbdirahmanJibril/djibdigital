@@ -13,7 +13,6 @@ const port= process.env.PORT || 3000;
 const app = express();
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, 'views'));
-// app.use(express.static("public"));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('*/css',express.static('public/css'));
 app.use(express.urlencoded({extended:false}));
@@ -65,46 +64,53 @@ app.post('/email',(req,res)=>{
   `;
   const mailOptions = {
   
-        to:'djibtechnology@gmail.com',
-        from: req.body.email,
-        subject: 'enquiry form',
+        to:'contact@djibdigital.com',
+        from:'contact@djibdigital.com',
+       subject: 'enquiry form',
        html:output
       
       };
     
  
     var smtpTransport = nodemailer.createTransport( {
-      service: 'Gmail',
-      auth: {
-        user: 'djibtechnology@gmail.com',
-        pass: process.env.EMAIL_PASSW
-      }
+      host: 'mail.privateemail.com',
+       port: 587,
+      secure: false,
+       auth: {
+      user: 'contact@djibdigital.com',
+      pass: process.env.EMAIL_PASSW
+  },
+  tls: {
+    
+    rejectUnauthorized: false
+  }
+   
    
     });
     
     smtpTransport.sendMail(mailOptions, function(err,data) {
-      if (!err) {
+      if (err) {
+        console.log(err);
+      }else{
         req.flash('message', 'Thank you, we will be in touch shortly');
     res.render('contact',{message:req.flash('message'),  });
     }
     });
   
+
   
 });
 
 
+
+
+
+
+
+
 app.use(function (req, res, next) {
-  res.status(404).send("Sorry can't find that!")
-})
-
-
-
-
-
-
-
-
-
+  res.status(404).sendFile(__dirname +  "/404.html");
+});
 
 
 

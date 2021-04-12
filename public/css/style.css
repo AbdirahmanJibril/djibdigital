@@ -61,7 +61,12 @@
   margin: 25px auto;
   color: var(--blue);
 }
-
+.container-404{
+  text-align: center;
+}
+.p-404{
+  margin-top: 150px;
+}
   .topsection{
    padding-bottom: 20px;
   background-color: var(--grey);
@@ -180,6 +185,10 @@ span.contactus{
 
 
 @media screen and (max-width: 576px) {
+  .h1-404{
+    margin-top: 50px;
+    text-align: center;
+  }
   .topdiv h3{
     margin-top: 30px;
   }

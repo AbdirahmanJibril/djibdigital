@@ -14,17 +14,32 @@
       --white:#ffffff;
       --grey:#dbe2ef;
     }
+    
+  a.brand-logo{
+    padding-top: 0;
+  }
   .brand-logo {
-    margin: auto auto 20px 10px ;
+    margin: 0 auto 0 10px ;
+    font-weight: 600;
+    
    
   }
-  a.brand-logo{
+  .firstpart{
     color: var(--darkblue);
+    font-size:1.5rem;
+    margin-top: 0;
+   
   }
-  .brand-logo > img{
+  .secondpart{
+    color:var(--blue);
+    font-size:1.5rem;
+    
+    
+  }
+  /* .brand-logo > img{
     width: 30%;
    color: var(--darkblue);
-  }
+  } */
   
   nav{
     background-color: var(--grey);

@@ -7,6 +7,7 @@ margin-top: 100px;
 .web-text{
 text-align: center;
 color:grey;
+margin:auto 20px;
 
 }
 .web-h4{
@@ -106,7 +107,10 @@ color:var(--blue);
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
+    .web-text{
+    margin: auto;
+    }
     .lower-section-web{
     display:inline-block;
     
@@ -118,4 +122,5 @@ color:var(--blue);
     .topsection.web h3{
         margin-top: 20px;
     }
+  
 }

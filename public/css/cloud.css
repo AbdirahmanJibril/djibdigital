@@ -23,10 +23,19 @@ text-align: center;
     text-align: center;
 }
 .cloud-health-section{
-   margin:50px 70px;
+  
+   margin:70px auto;
     color:var(--darkblue);
    text-align: center;
 
+}
+
+.top-row{
+    margin-bottom: 70px;
+}
+.small-paragraphs-top{
+    margin: 20px 50px;
+    text-align: center;
 }
 .cloud-health-section .card{
 box-shadow: none;
@@ -54,9 +63,7 @@ text-align: center;
 margin: 100px;
 
 }
-/* section.educational  .row, .col{
-    margin:50px auto;
-} */
+
 .educational .card{
     box-shadow: none;
 }
@@ -71,5 +78,12 @@ margin: 100px;
 @media screen and (max-width: 576px) {
     .small-paragraphs-top  , .small-paragraphs-education{
         text-align: justify;
+        
     }
-}
+    .cloud-health-section{
+       
+        margin: 50px;
+  
+     }
+    
+    }

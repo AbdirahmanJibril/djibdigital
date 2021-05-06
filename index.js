@@ -9,7 +9,7 @@ const session = require('express-session');
 const flash= require("express-flash");
 import sslRedirect from 'heroku-ssl-redirect'; 
 
-app.use(sslRedirect());
+
 const port= process.env.PORT || 3000;
 const app = express();
 app.set("view engine", "ejs");
@@ -27,7 +27,7 @@ app.use(session({
   
 }));
 app.use(flash());
-
+app.use(sslRedirect());
 
 
 app.get('/', (req,res)=>{

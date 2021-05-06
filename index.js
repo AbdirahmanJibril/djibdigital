@@ -1,7 +1,6 @@
 require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
-var http = express();
 const path=require('path');
 const ejs = require("ejs");
 const nodemailer = require("nodemailer");
@@ -26,13 +25,16 @@ app.use(session({
 }));
 app.use(flash());
 
-// set up a route to redirect http to https
-http.get('*', function(req, res) {  
-  res.redirect('https://www.djibdigital.com'  + req.url);
+app.enable('trust proxy');
+app.use(function(request, response, next) {
 
-  // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
-  // res.redirect('https://example.com' + req.url);
+  if (process.env.NODE_ENV != 'development' && !request.secure) {
+     return response.redirect("https://" + request.headers.host + request.url);
+  }
+
+  next();
 });
+
 
 app.get('/', (req,res)=>{
 res.render('home',{message:req.flash('message')});

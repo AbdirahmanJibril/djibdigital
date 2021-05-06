@@ -7,7 +7,6 @@ const ejs = require("ejs");
 const nodemailer = require("nodemailer");
 const session = require('express-session');
 const flash= require("express-flash"); 
-const sslRedirect = require('heroku-ssl-redirect');
 
 
 const port= process.env.PORT || 3000;
@@ -26,7 +25,7 @@ app.use(session({
   
 }));
 app.use(flash());
-app.use(sslRedirect());
+
 
 
 app.get('/', (req,res)=>{

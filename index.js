@@ -1,13 +1,12 @@
 require('dotenv').config()
-import express from 'express';
+const express = require("express");
 const bodyParser = require("body-parser");
 const https= require("https");
 const path=require('path');
 const ejs = require("ejs");
 const nodemailer = require("nodemailer");
 const session = require('express-session');
-const flash= require("express-flash");
-import sslRedirect from 'heroku-ssl-redirect'; 
+const flash= require("express-flash"); 
 
 
 const port= process.env.PORT || 3000;
@@ -19,7 +18,6 @@ app.use('*/css',express.static('public/css'));
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
-
 app.use(session({
   secret: process.env.EMAIL_PASSW,
   resave: false,
@@ -27,7 +25,7 @@ app.use(session({
   
 }));
 app.use(flash());
-app.use(sslRedirect());
+
 
 
 app.get('/', (req,res)=>{

@@ -39,19 +39,19 @@ app.use(function(request, response, next) {
 app.get('/', (req,res)=>{
 res.render('home',{message:req.flash('message')});
 });
-app.get('/cloud', (req,res)=>{
+app.get('/cloud-services', (req,res)=>{
   res.render('cloud');
   });
-app.get('/web', (req,res)=>{
+app.get('/web-design', (req,res)=>{
 res.render('web');
 });
-app.get('/digital', (req,res)=>{
+app.get('/digital-marketing', (req,res)=>{
 res.render('digital');
 });
-app.get('/about', (req,res)=>{
+app.get('/about-us', (req,res)=>{
 res.render('about');
 });
-app.get('/contact', (req,res)=>{
+app.get('/contact-us', (req,res)=>{
 res.render('contact',{message:req.flash('message')});
 });
 

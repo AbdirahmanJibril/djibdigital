@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const nodemailer = require("nodemailer");
 const session = require('express-session');
 const flash= require("express-flash"); 
-import sslRedirect from 'heroku-ssl-redirect';
+const sslRedirect = require('heroku-ssl-redirect');
 
 
 const port= process.env.PORT || 3000;

@@ -9,9 +9,9 @@ color: var(--white);
 color:var(--blue);
 font-weight: 600;
 }
-/* .promoimage-cloud{
-    max-width: 40%;
-} */
+img.promoimage-cloud{
+    width: 70%;
+}
 .cloud-middle-section{
 text-align: center;
 }

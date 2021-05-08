@@ -5,6 +5,9 @@
     color: var(--blue);
     font-weight: 600;
 }
+.middle-img-digital{
+    max-width:max-content;
+}
 .promo-section-digital h4{
     color: var(--blue);
     font-weight: 600;

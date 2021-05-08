@@ -15,6 +15,9 @@ img.promoimage-cloud{
 .cloud-middle-section{
 text-align: center;
 }
+.cloud-middle-section .row{
+    padding: 150px  auto;
+}
 .cloud-middle-section h3{
     color:var(--darkblue);
 }
@@ -45,10 +48,16 @@ box-shadow: none;
 .cloud-health-section .fas, h6{
 color: var(--blue);
 }
+.cloud-lower-section {
+   margin: 100px  auto;
+   
+  
+}
 .cloud-lower-section .card{
     text-align: center;
     box-shadow: none;
     background-color: transparent;
+    margin: 50px  auto;
 
       
 }
@@ -60,12 +69,12 @@ font-weight: 500;
 
 .educational{
 text-align: center;
-margin: 100px;
 
 }
 
 .educational .card{
     box-shadow: none;
+  
 }
 .educational h5{
     color: var(--darkblue);
@@ -85,5 +94,11 @@ margin: 100px;
         margin: 50px;
   
      }
-    
+     .educational  h3{
+        margin-bottom: auto;
+        
+    }
+    .web-text{
+        margin-bottom: 30px;
+    }
     }

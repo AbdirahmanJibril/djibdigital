@@ -5,12 +5,15 @@ color: var(--white);
     color: var(--white);
     font-weight: 600;   
    }
+.topsection.cloud h3{
+    margin-top: 120px;
+}
 .promo-section.cloud h6{
 color:var(--blue);
 font-weight: 600;
 }
-img.promoimage-cloud{
-    width: 70%;
+img.topimg-cloud{
+    max-width: 100%;
 }
 .cloud-middle-section{
 text-align: center;
@@ -19,7 +22,7 @@ text-align: center;
     padding: 150px  auto;
 }
 .cloud-middle-section h3{
-    color:var(--darkblue);
+    color:var(--blue);
 }
 .cloud-lower-section{
     background-color: var(--grey);
@@ -62,7 +65,7 @@ color: var(--blue);
       
 }
 .cloud-lower-section p{
-color:var(--blue);
+color:var(--darkblue);
 font-weight: 500;
 
 }
@@ -77,14 +80,18 @@ text-align: center;
   
 }
 .educational h5{
-    color: var(--darkblue);
+    color: var(--blue);
     margin:50px auto;
 }
 .educational  h3{
     margin-bottom: 100px;
-    color: var(--darkblue);
+    color: var(--blue);
 }
 @media screen and (max-width: 576px) {
+
+    .topsection.cloud h3{
+        margin-top: 0;
+    }
     .small-paragraphs-top  , .small-paragraphs-education{
         text-align: justify;
         

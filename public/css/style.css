@@ -216,8 +216,9 @@ span.contactus{
       padding: 100px auto;
      
     }
-    p .landing-page{
+    .landing-page{
       text-align: center;
+      margin:auto 60px;
     }
   
   h1,h2 {

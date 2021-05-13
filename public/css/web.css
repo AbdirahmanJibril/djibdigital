@@ -2,7 +2,7 @@
 .topsection.web h3 {
 color: var(--blue);
 font-weight: 600;
-margin-top: 120px;
+margin-top: 110px;
 }
 
 .web-text{
@@ -111,7 +111,7 @@ color:var(--blue);
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .web-text{
     font-size: .95rem;
     margin: auto;

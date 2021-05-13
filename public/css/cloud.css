@@ -15,6 +15,13 @@ font-weight: 600;
 img.topimg-cloud{
     max-width: 100%;
 }
+.responsive-img.promoimage-cloud{
+    max-width: 80%;
+}
+.responsive-img.educational-image{
+    max-width: 80%;
+    
+}
 .cloud-middle-section{
 text-align: center;
 }

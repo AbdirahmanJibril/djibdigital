@@ -60,16 +60,14 @@ text-align: center;
     color: var(--darkblue);
     font-weight: 600;
 }
-.small-paragraphs{
-    margin:auto 70px auto 0 ;
-    font-size: large;
-}
+
 .web-lower-section{
 padding-bottom: 100px auto;
 background-color: var(--grey);
 }
 .row p.small-paragraphs{
     margin:auto 50px;
+    font-size: large;
 }
 .web-lower-section .card{
     text-align: center;

@@ -82,6 +82,7 @@ text-align: center;
 
 }
 
+
 .educational .card{
     box-shadow: none;
   
@@ -99,10 +100,7 @@ text-align: center;
     .topsection.cloud h3{
         margin-top: 0;
     }
-    .small-paragraphs-top  , .small-paragraphs-education{
-        text-align: justify;
-        
-    }
+  
     .cloud-health-section{
        
         margin: 50px;

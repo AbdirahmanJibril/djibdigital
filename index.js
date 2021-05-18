@@ -25,15 +25,15 @@ app.use(session({
 }));
 app.use(flash());
 
-app.enable('trust proxy');
-app.use(function(request, response, next) {
+// app.enable('trust proxy');
+// app.use(function(request, response, next) {
 
-  if (process.env.NODE_ENV != 'development' && !request.secure) {
-     return response.redirect("https://" + request.headers.host + request.url);
-  }
+//   if (process.env.NODE_ENV != 'development' && !request.secure) {
+//      return response.redirect("https://" + request.headers.host + request.url);
+//   }
 
-  next();
-});
+//   next();
+// });
 
 
 app.get('/', (req,res)=>{
@@ -56,7 +56,7 @@ res.render('contact',{message:req.flash('message')});
 });
 
 app.post('/email',(req,res)=>{
-  
+ 
   const output = `
   <p>Enquiry Form</p>
   <h3>Contact detaill</h3>

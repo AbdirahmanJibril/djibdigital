@@ -247,6 +247,9 @@ span.contactus{
   }
   
 }
+  .social-media{
+    margin-top: 80px;
+  }
 /* tablet viewport */
 
 @media screen and (max-width: 768px) {

@@ -8,9 +8,9 @@ color: var(--white);
 .topsection.cloud h3{
     margin-top: 120px;
 }
-.topdiv-cloud{
+/* .topdiv-cloud{
     margin: auto 70px;
-}
+} */
 .promo-section.cloud h6{
 color:var(--blue);
 font-weight: 600;

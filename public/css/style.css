@@ -64,7 +64,11 @@
      border-radius: 50px;
      background-color: var(--darkblue);
    }
+   .social-sidnav .fab{
+    color: #ffffff;
+    margin: 30px 10px;
 
+   }
    h1, h2,h3,h5 {
   font-weight: 600;
   line-height: 1.2;
@@ -176,6 +180,9 @@ span.contactus{
   background-color: var(--darkblue);
   color:#ffffff;
   font-weight: 600;
+}
+.page-footer h5{
+  color:#ffffff;
 }
 .page-footer input,textarea{
   color: #ffffff;

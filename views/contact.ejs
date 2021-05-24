@@ -101,10 +101,14 @@
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
  <script>
    
+   var elems = document.querySelectorAll('.sidenav');
+     M.Sidenav.init(elems, {edge:"right"});
+  
+
   $(document).ready(function(){
    $('.slider').slider();
    $('.dropdown-trigger').dropdown();
-   $('.sidenav').sidenav();
+
    
   
 });

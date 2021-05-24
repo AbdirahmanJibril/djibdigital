@@ -41,9 +41,11 @@
    padding-bottom: 100px;
     
    }
+  
    a.sidenav-trigger{
      color:  var(--darkblue);
-    
+    position: absolute;
+    right: 2px;
     
    }
    

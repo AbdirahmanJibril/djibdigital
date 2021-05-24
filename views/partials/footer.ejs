@@ -7,11 +7,15 @@
     
   <script>
    
+   
+    var elems = document.querySelectorAll('.sidenav');
+     M.Sidenav.init(elems, {edge:"right"});
   
+
     $(document).ready(function(){
      $('.slider').slider();
      $('.dropdown-trigger').dropdown();
-     $('.sidenav').sidenav();
+    //  $('.sidenav').sidenav();
      
     
   });

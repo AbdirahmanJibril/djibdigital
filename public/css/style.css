@@ -55,16 +55,20 @@
    }
    
    .sidenav{
-    background-color: var(--blue);
+    background-color: var(--darkblue);
     
    }
    .sidenav > li a{
     color: var(--white);
-    font-weight: 600;   
+    font-weight: 600; 
+    font-size: 1.2rem;  
    }
-   .sidenav a:hover{
+   .sidenav > li a:hover{
      border-radius: 50px;
-     background-color: var(--darkblue);
+     background-color: var(--blue);
+   }
+   .sidenav> li a i.material-icons, li a i.fas{
+     color:#ffffff;
    }
    .social-sidnav .fab{
     color: #ffffff;

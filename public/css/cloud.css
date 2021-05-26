@@ -8,16 +8,12 @@ color: var(--white);
 .topsection.cloud h3{
     margin-top: 120px;
 }
-/* .topdiv-cloud{
-    margin: auto 70px;
-} */
+
 .promo-section.cloud h6{
 color:var(--blue);
 font-weight: 600;
 }
-img.topimg-cloud{
-    max-width: 100%;
-}
+
 .responsive-img.promoimage-cloud{
     max-width: 80%;
 }
@@ -33,6 +29,11 @@ text-align: center;
 }
 .cloud-middle-section h3{
     color:var(--blue);
+    margin-bottom: 100px;
+}
+
+.cloud-middle-section-row{
+    margin-bottom: 120px;
 }
 .cloud-lower-section{
     background-color: var(--grey);
@@ -63,8 +64,7 @@ color: var(--blue);
 }
 .cloud-lower-section {
    margin: 100px  auto;
-   
-  
+    
 }
 .cloud-lower-section .card{
     text-align: center;
@@ -72,7 +72,6 @@ color: var(--blue);
     background-color: transparent;
     margin: 50px  auto;
 
-      
 }
 .cloud-lower-section p{
 color:var(--darkblue);
@@ -98,6 +97,11 @@ text-align: center;
     margin-bottom: 100px;
     color: var(--blue);
 }
+.card-image .fas{
+    color:var(--blue);
+    font-weight: 600;
+  
+}
 @media screen and (max-width: 576px) {
 
     .topsection.cloud h3{
@@ -115,5 +119,8 @@ text-align: center;
     }
     .web-text{
         margin-bottom: 30px;
+    }
+    .cloud-middle-section-row{
+        margin-bottom: 50px;
     }
     }

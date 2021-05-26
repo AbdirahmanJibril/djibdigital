@@ -57,7 +57,10 @@
    .sidenav{
     background-color: var(--darkblue);
     
+    
+    
    }
+  
    .sidenav > li a{
     color: var(--white);
     font-weight: 600; 
@@ -106,6 +109,11 @@
   .promosection.home{
     padding-bottom: 50px;
   }
+  p.landing-page{
+    font-size: 1.2rem;
+    margin:50px 90px;
+    text-align: center;
+  }
   .topsection.contact{
     max-height:400px;
     padding-bottom: 20px;
@@ -114,11 +122,6 @@
   .topdiv h3{
     margin-top: 120px;
   }
-  /* .topdiv img{
-  height: 100%;
-  margin-top: 0;
-  } */
-  
 
 
 .h3-top{
@@ -128,9 +131,9 @@
 }
 .promosection{
   text-align: center;
-  max-height: 500px;
+  max-height: fit-content;
   padding:20px 30px 50px 30px;
-  background-clip: padding-box;
+
 
 }
 
@@ -170,9 +173,15 @@ padding-top: 30px;
 
 .lower-section{
  
-  margin: 50px auto;
+  margin: 40px auto;
   text-align: center;
 
+}
+.lower-section h3{
+  margin-bottom: 40px;
+}
+.lower-section h5{
+  margin-top: 70px;
 }
 span.contactus{
   font-weight: bolder;
@@ -224,19 +233,29 @@ span.contactus{
     padding: 10px auto;
   }
     .promosection.home{
-      max-height: 600px;
+      max-height: fit-content;
+      margin:50px auto;
+      padding: 0;
  
+    }
+    .middle-section{
+      max-height: fit-content;
+      margin: 50px auto;
     }
     .middle-section .card{
       margin:20px auto;
-      padding: 100px auto;
+      padding: 40px auto;
      
     }
+  
     p.landing-page{
       text-align: center;
-      margin:auto 100px;
+      margin:10px 50px 70px 50px;
     }
-  
+    .lower-section h5{
+      margin:30px auto 10px auto;
+    }
+   
   h1,h2 {
     font-size: x-large;
     font-weight: bold;
@@ -283,7 +302,7 @@ color: #ffffff;
 
    }
    
-
+  
    .h3-middle{
      margin: 5px;
 

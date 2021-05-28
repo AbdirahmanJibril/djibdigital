@@ -177,10 +177,16 @@ padding-top: 30px;
   text-align: center;
 
 }
+.promosection.home h3{
+  margin-bottom: 40px;
+}
+.promosection.home .fas{
+  margin-top: 70px;
+}
 .lower-section h3{
   margin-bottom: 40px;
 }
-.lower-section h5{
+.lower-section .fas{
   margin-top: 70px;
 }
 span.contactus{

@@ -212,11 +212,14 @@ span.contactus{
   color:black;
 }
 .alert{
-  background-color: var(--white);
-  color:var(--darkblue);
+  background-color: var(--blue);
+  color:var(--white);
   font-weight: 600;
   text-align: center;
-  max-width: 400px;
+  max-width:600px;
+  font-size: large;
+  
+  margin-top: 100px;
 }
 .footer-copyrigh{
   background-color: #3BACEE;

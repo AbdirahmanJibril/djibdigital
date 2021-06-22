@@ -62,7 +62,7 @@ app.post('/email',(req,res)=>{
   <h3>Contact detaill</h3>
   <ul>
   <li>First Name: ${req.body.first_name}</li>
-  <li>Last Name: ${req.body.first_name}</li>
+  <li>Last Name: ${req.body.last_name}</li>
   <li>Phone: ${req.body.phone}</li>
   <li>Email: ${req.body.email}</li>
   <h3>Message</h3>
@@ -101,7 +101,7 @@ app.post('/email',(req,res)=>{
         console.log(err);
       }else{
         req.flash('message', 'Thank you, we will be in touch shortly');
-    res.render('contact',{message:req.flash('message'),  });
+    res.render('home',{message:req.flash('message'),  });
     }
     });
   

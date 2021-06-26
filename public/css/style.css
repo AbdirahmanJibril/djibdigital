@@ -211,6 +211,16 @@ span.contactus{
 .contact-page-form{
   color:black;
 }
+.phone{
+  background-color: var(--blue);
+  color: white;
+  font-size: 1.2rem;
+  padding: .4rem;
+}
+.phone  a:hover{
+background-color: lightblue;
+}
+
 .alert{
   background-color: var(--blue);
   color:var(--white);
@@ -290,7 +300,7 @@ span.contactus{
 
   }
   
-}
+
   .social-media{
     margin-top: 80px;
     
@@ -298,6 +308,11 @@ span.contactus{
   .social-media .fab{
 color: #ffffff;
   }
+
+  .phone{
+    padding:.2rem;
+  }
+}
 /* tablet viewport */
 
 @media screen and (max-width: 768px) {
@@ -326,7 +341,9 @@ color: #ffffff;
    .promosection{
     padding: 20px;
   }
-   
- 
+
+  .phone{
+    padding:.2rem;
+  }
 }
 

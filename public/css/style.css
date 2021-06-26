@@ -211,15 +211,6 @@ span.contactus{
 .contact-page-form{
   color:black;
 }
-.phone{
-  background-color: var(--blue);
-  color: white;
-  font-size: 1.2rem;
-  padding: .4rem;
-}
-.phone  a:hover{
-background-color: lightblue;
-}
 
 .alert{
   background-color: var(--blue);
@@ -309,9 +300,7 @@ background-color: lightblue;
 color: #ffffff;
   }
 
-  .phone{
-    padding:.2rem;
-  }
+ 
 }
 /* tablet viewport */
 
@@ -342,8 +331,6 @@ color: #ffffff;
     padding: 20px;
   }
 
-  .phone{
-    padding:.2rem;
-  }
+ 
 }
 

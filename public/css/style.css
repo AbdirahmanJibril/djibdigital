@@ -307,11 +307,9 @@ color:var(--blue);
   .social-media{
     margin-top: 80px;
     
+    
   }
-  .social-media .fab{
-color: #ffffff;
-  }
-
+  
  
 }
 /* tablet viewport */

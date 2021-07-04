@@ -295,6 +295,10 @@ color:var(--blue);
     max-width: 60%;
    
   }
+  .row.tovdip > img .responsive-img.topimg-home{
+    width:  50%;
+    z-index: -1;
+  }
   .alert{
     font-size: small;
     background-color: lightgray;

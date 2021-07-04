@@ -1,3 +1,4 @@
+
 .container.sidenave-extended{
 color: var(--white);
 }
@@ -101,6 +102,10 @@ text-align: center;
     color:var(--blue);
     font-weight: 600;
   
+}
+.attribution{
+font-size: x-small;
+color:var(--white);
 }
 @media screen and (max-width: 576px) {
 

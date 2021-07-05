@@ -106,7 +106,9 @@ text-align: center;
 .attribution{
 font-size: x-small;
 color:var(--white);
+
 }
+
 @media screen and (max-width: 576px) {
 
     .topsection.cloud h3{

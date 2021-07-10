@@ -1,135 +1,32 @@
-
-.container.sidenave-extended{
-color: var(--white);
+.container.sidenave-extended{color:var(--white)}
+.sidenave-extended>li a{color:var(--white);font-weight:600}
+.topsection.cloud h3{margin-top:120px}
+.promo-section.cloud h6{color:var(--blue);font-weight:600}
+.responsive-img.promoimage-cloud{max-width:80%}
+.responsive-img.educational-image{max-width:80%}
+.cloud-middle-section{text-align:center}
+.cloud-middle-section .row{padding:150px auto}
+.cloud-middle-section h3{color:var(--blue);margin-bottom:100px}
+.cloud-middle-section-row{margin-bottom:120px}
+.cloud-lower-section{background-color:var(--grey);text-align:center}
+.cloud-health-section{margin:70px auto;color:var(--darkblue);text-align:center}
+.top-row{margin-bottom:70px}
+.small-paragraphs-top{margin:20px 50px;text-align:center}
+.cloud-health-section .card{box-shadow:none}
+.cloud-health-section .fas,h6{color:var(--blue)}
+.cloud-lower-section{margin:100px auto}
+.cloud-lower-section .card{text-align:center;box-shadow:none;background-color:transparent;margin:50px auto}
+.cloud-lower-section p{color:var(--darkblue);font-weight:500}
+.educational{text-align:center}
+.educational .card{box-shadow:none}
+.educational h5{color:var(--blue);margin:50px auto}
+.educational h3{margin-bottom:100px;color:var(--blue)}
+.card-image .fas{color:var(--blue);font-weight:600}
+.attribution{font-size:x-small;color:var(--white)}
+@media screen and (max-width:576px){
+.topsection.cloud h3{margin-top:0}
+.cloud-health-section{margin:50px}
+.educational h3{margin-bottom:auto}
+.web-text{margin-bottom:30px}
+.cloud-middle-section-row{margin-bottom:50px}
 }
-.sidenave-extended > li a{
-    color: var(--white);
-    font-weight: 600;   
-   }
-.topsection.cloud h3{
-    margin-top: 120px;
-}
-
-.promo-section.cloud h6{
-color:var(--blue);
-font-weight: 600;
-}
-
-.responsive-img.promoimage-cloud{
-    max-width: 80%;
-}
-.responsive-img.educational-image{
-    max-width: 80%;
-    
-}
-.cloud-middle-section{
-text-align: center;
-}
-.cloud-middle-section .row{
-    padding: 150px  auto;
-}
-.cloud-middle-section h3{
-    color:var(--blue);
-    margin-bottom: 100px;
-}
-
-.cloud-middle-section-row{
-    margin-bottom: 120px;
-}
-.cloud-lower-section{
-    background-color: var(--grey);
-    text-align: center;
-}
-.cloud-health-section{
-  
-   margin:70px auto;
-    color:var(--darkblue);
-   text-align: center;
-
-}
-
-.top-row{
-    margin-bottom: 70px;
-}
-.small-paragraphs-top{
-    margin: 20px 50px;
-    text-align: center;
-}
-.cloud-health-section .card{
-box-shadow: none;
-
-
-}
-.cloud-health-section .fas, h6{
-color: var(--blue);
-}
-.cloud-lower-section {
-   margin: 100px  auto;
-    
-}
-.cloud-lower-section .card{
-    text-align: center;
-    box-shadow: none;
-    background-color: transparent;
-    margin: 50px  auto;
-
-}
-.cloud-lower-section p{
-color:var(--darkblue);
-font-weight: 500;
-
-}
-
-.educational{
-text-align: center;
-
-}
-
-
-.educational .card{
-    box-shadow: none;
-  
-}
-.educational h5{
-    color: var(--blue);
-    margin:50px auto;
-}
-.educational  h3{
-    margin-bottom: 100px;
-    color: var(--blue);
-}
-.card-image .fas{
-    color:var(--blue);
-    font-weight: 600;
-  
-}
-.attribution{
-font-size: x-small;
-color:var(--white);
-
-}
-
-@media screen and (max-width: 576px) {
-
-    .topsection.cloud h3{
-        margin-top: 0;
-    }
-
-    .cloud-health-section{
-       
-        margin: 50px;
-  
-     }
-     .educational  h3{
-        margin-bottom: auto;
-        
-    }
-    .web-text{
-        margin-bottom: 30px;
-        
-       
-    }
-    .cloud-middle-section-row{
-        margin-bottom: 50px;
-    }
-    }

@@ -1,0 +1,210 @@
+/*  
+ svg#freepik_stories-social-media:not(.animated) .animable {
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--Shadow--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) lightSpeedRight;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--Floor--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideUp;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--Device--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) zoomIn;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--paper-plane--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) zoomOut;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--Character--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) zoomOut;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #elcvt1bbfncl {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #el7jf40682y6k {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 62.5ms;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #el78gcsb9cb84 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 125ms;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elltodrq3lzz {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .1875s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #el5azk2zojdfy {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .25s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elee3mox0clj {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .3125s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #el1ep3yozzl2h {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 375ms;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elkxhbs1t1fgg {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .4375s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elzmn6r6kjl0o {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .5s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elu7u4gz05whb {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .5625s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elj2eph6o7ymd {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 625ms;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elklxsnz9dvq {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .6875s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elaah6eq3zbrm {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .75s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elwmz1byhl1ss {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .8125s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elfixnkmi28vi {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 875ms;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #elhlprilftzwl {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: .9375s;
+     opacity: 0
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--speech-bubbles--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) slideLeft;
+     animation-delay: 0s
+ }
+ 
+ svg#freepik_stories-social-media.animated #freepik--Icons--inject-44 {
+     animation: 1s 1 forwards cubic-bezier(.36, -.01, .5, 1.38) fadeIn;
+     animation-delay: 0s
+ }
+ 
+ @keyframes lightSpeedRight {
+     from {
+         transform: translate3d(50%, 0, 0) skewX(-20deg);
+         opacity: 0
+     }
+     60% {
+         transform: skewX(10deg);
+         opacity: 1
+     }
+     80% {
+         transform: skewX(-2deg)
+     }
+     to {
+         opacity: 1;
+         transform: translate3d(0, 0, 0)
+     }
+ }
+ 
+ @keyframes slideUp {
+     0% {
+         opacity: 0;
+         transform: translateY(30px)
+     }
+     100% {
+         opacity: 1;
+         transform: inherit
+     }
+ }
+ 
+ @keyframes zoomIn {
+     0% {
+         opacity: 0;
+         transform: scale(.5)
+     }
+     100% {
+         opacity: 1;
+         transform: scale(1)
+     }
+ }
+ 
+ @keyframes zoomOut {
+     0% {
+         opacity: 0;
+         transform: scale(1.5)
+     }
+     100% {
+         opacity: 1;
+         transform: scale(1)
+     }
+ }
+ 
+ @keyframes slideLeft {
+     0% {
+         opacity: 0;
+         transform: translateX(-30px)
+     }
+     100% {
+         opacity: 1;
+         transform: translateX(0)
+     }
+ }
+ 
+ @keyframes fadeIn {
+     0% {
+         opacity: 0
+     }
+     100% {
+         opacity: 1
+     }
+ }
+ 
+ img {
+     max-width: 100%;
+     max-height: 100%;
+ } */

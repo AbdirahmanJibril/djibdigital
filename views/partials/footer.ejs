@@ -1,106 +1,134 @@
-   
+<!--JavaScript at end of body for optimized loading-->
 
-     <!--JavaScript at end of body for optimized loading-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-     
-    
-  <script>
-   
-   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<script>
     var elems = document.querySelectorAll('.sidenav');
-     M.Sidenav.init(elems, {edge:"right"});
-    
-     var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems,{height:600});
+    var sidenav = M.Sidenav.init(elems, {
+        edge: "right"
+    });
 
-    $(document).ready(function(){
-     $('.slider').slider();
-     $('.dropdown-trigger').dropdown();
-    //  $('.sidenav').sidenav();
-     
+    // var sliderElement = document.querySelectorAll('.slider');
+    // var instances = M.Slider.init(sliderElement, {height:500},{indicators:false},{fullWidth:true});
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instance = M.Carousel.init(elems,
+     {indicators:true,fullWidth:true},
+     {pressed:true},
+      {dragged:true});
+     // custom function for autoplaying 
+  let indicatorItems = document.querySelectorAll('.carousel .indicator-item'),
+      slideTime = 3000,
+      activeClass = "active";
+
+  setInterval(() => {
+    indicatorItems.forEach(el => {
+      if (el.classList.contains(activeClass)) {
+        sib = el.nextElementSibling;
+        if (sib == null) {
+          indicatorItems[0].click();
+        } else {
+          sib.click()
+        }
+      }
+    });
+  }, slideTime);
+});
     
-  });
-  </script>
-  </body>
-  <footer class="page-footer">
+  
+ 
+  autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+    // var elems = document.querySelectorAll('.carousel');
+    // var instances = M.Carousel.init(elems, {indicators:true,fullWidth:true});
+    // var instance = M.Carousel.getInstance();
+    // instance.next();
+
+    
+</script>
+</body>
+<footer class="page-footer">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Contact us</h5>
-          <p class="grey-text text-lighten-4">Send us  quick message.</p>
-          <form action="/email" method="POST" >
-            <div class="row">
-              <div class="input-field col s12 l6">
-                <i class="small material-icons prefix">account_circle</i>
-                <input id="fist_name"  name="first_name" type="text" class="validate"  required>
-                <label for="first_name">First Name</label>
-              </div>
-              <div class="input-field col s12 l6">
-                <i class="small material-icons prefix">account_circle</i>
-                <input id="last_name" name="last_name" type="text" class="validate" required>
-                <label for="last_name">Last Name</label>
-              </div>
-           
-              <div class="input-field col s12 l6">
-                
-                <i class="small material-icons prefix">email</i>
-                <input id="email" name="email" type="email" class="validate" required>
-                <label for="email">Email</label>
-              </div>
-           
-              <div class="input-field col s12 l6">
-                <i class="small material-icons prefix">phone</i>
-                <input id="phone" name="phone" type="tel" class="validate" required>
-                <label for="phone">phone number</label>
-              </div>
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Contact us</h5>
+                <p class="grey-text text-lighten-4">Send us quick message.</p>
+                <form action="/email" method="POST">
+                    <div class="row">
+                        <div class="input-field col s12 l6">
+                            <i class="small material-icons prefix">account_circle</i>
+                            <input id="fist_name" name="first_name" type="text" class="validate" required>
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s12 l6">
+                            <i class="small material-icons prefix">account_circle</i>
+                            <input id="last_name" name="last_name" type="text" class="validate" required>
+                            <label for="last_name">Last Name</label>
+                        </div>
 
-              <div class="input-field col s12">
-              
-                <textarea id="textarea1" name="textarea1" class="materialize-textarea"  required></textarea>
-                <label for="textarea1">Message</label>
-              
-                </div>
-                <button class="btn waves-effect waves-light  light-blue darken-4" type="submit" name="action">Submit
+                        <div class="input-field col s12 l6">
+
+                            <i class="small material-icons prefix">email</i>
+                            <input id="email" name="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="input-field col s12 l6">
+                            <i class="small material-icons prefix">phone</i>
+                            <input id="phone" name="phone" type="tel" class="validate" required>
+                            <label for="phone">phone number</label>
+                        </div>
+
+                        <div class="input-field col s12">
+
+                            <textarea id="textarea1" name="textarea1" class="materialize-textarea" required></textarea>
+                            <label for="textarea1">Message</label>
+
+                        </div>
+                        <button class="btn waves-effect waves-light  light-blue darken-4" type="submit" name="action">Submit
                   <i class="material-icons right">send</i>
                 </button>
-              </div>
-            </form>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Quick Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="/about-us">About us</a></li>
-            <li><a class="grey-text text-lighten-3" href="/contact-us">Contact us</a></li>
-            <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
-            <li><a class="grey-text text-lighten-3" href="/web-design">Web Design</a></li>
-            <li><a class="grey-text text-lighten-3" href="/digital-marketing">Dgital Marketing</a></li>
-            <li><a class="grey-text text-lighten-3" href="/cloud-services">Cloud Services</a></li>
-          </ul>
-          <div class="social-media">
-            <div class="row ">
-              <div class="col social l10 offset-l2 s12"></div>
-              <h5>Join us</h5>
-              <div class="col s2 social-media-footer"><a href="https://www.facebook.com/jibdigital"><i class="fab fa-facebook fa-2x"></i></a></div>
-              <div class="col s2 social-media-footer"><a href="https://twitter.com/djibdigital"><i class="fab fa-twitter fa-2x"></i></a></div>
-              <div class="col s2 social-media-footer"><a href="https://www.instagram.com/djibdigital"><i class="fab fa-instagram fa-2x"></i></a></div>
-              <div class="col s2 social-media-footer"><a href=""><i class="fab fa-linkedin-in fa-2x"></i></a></div>
-            <a href=""></a>
+                    </div>
+                </form>
             </div>
-          </div>
-         
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Quick Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="/about-us">About us</a></li>
+                    <li><a class="grey-text text-lighten-3" href="/contact-us">Contact us</a></li>
+                    <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
+                    <li><a class="grey-text text-lighten-3" href="/web-design">Web Design</a></li>
+                    <li><a class="grey-text text-lighten-3" href="/digital-marketing">Dgital Marketing</a></li>
+                    <li><a class="grey-text text-lighten-3" href="/cloud-services">Cloud Services</a></li>
+                </ul>
+                <div class="social-media">
+                    <div class="row ">
+                        <div class="col social l10 offset-l2 s12"></div>
+                        <h5>Join us</h5>
+                        <div class="col s2 social-media-footer"><a href="https://www.facebook.com/jibdigital"><i class="fab fa-facebook fa-2x"></i></a></div>
+                        <div class="col s2 social-media-footer"><a href="https://twitter.com/djibdigital"><i class="fab fa-twitter fa-2x"></i></a></div>
+                        <div class="col s2 social-media-footer"><a href="https://www.instagram.com/djibdigital"><i class="fab fa-instagram fa-2x"></i></a></div>
+                        <div class="col s2 social-media-footer"><a href=""><i class="fab fa-linkedin-in fa-2x"></i></a></div>
+                        <a href=""></a>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-        
-      </div>
-     
-      
+
+
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      © 2021 Djibdigital. All Rights reserved.
-   
-      </div>
+        <div class="container">
+            © 2021 Djibdigital. All Rights reserved.
+
+        </div>
     </div>
-  </footer>
-  </html>
-  
+</footer>
+
+</html>

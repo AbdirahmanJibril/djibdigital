@@ -2,6 +2,7 @@
 .web-text{text-align:center;margin:auto 30px;font-size:1.2rem}
 .web-h4{text-align:center;color:var(--darkblue)}
 .responsive-img.topimg-web{max-width:80%}
+.responsive-img.websites{max-width: 100%}
 .responsive-img.mockups{max-height:70%;padding-top:0}
 section.web-cards{text-align:center}
 .web-cards .card{max-width:90%;max-width:60%;margin:50px auto}
